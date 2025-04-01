@@ -8,6 +8,7 @@ import pandas as pd
 df = pd.read_csv('tweets.csv')
 df = df.reset_index()
 
+API_KEY = "zen_vI_xhsRfDiMJCfoSeXUPvD6fy4xwMqdXqDi9xLPH-SU"
 # Initialize a client with the API key.
 client = ZenoClient(API_KEY)
 
